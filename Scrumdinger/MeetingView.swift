@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MettingView: View {
+struct MeetingView: View {
     var body: some View {
         VStack(){
             ProgressView(value: 5, total: 15)
@@ -57,5 +57,5 @@ struct MettingView: View {
 }
 
 #Preview {
-    MettingView()
+    MeetingView()
 }
