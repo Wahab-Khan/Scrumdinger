@@ -19,11 +19,6 @@ struct ScrumsView: View {
     }
 }
 
-struct ScrumsView_Previews: PreviewProvider {
-    static var previews: some View {
-        ScrumsView(scrums: DailyScrum.sampleData)
-    }
+#Preview {
+    ScrumsView(scrums : DailyScrum.sampleData)
 }
-//#Preview {
-//    ScrumView(scrums : DailyScrum.sampleData)
-//}
