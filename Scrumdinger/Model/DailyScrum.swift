@@ -11,7 +11,7 @@ struct DailyScrum: Identifiable {
     
     var id : UUID
     var title : String
-    var attendees : [String]
+    var attendees : [Attendee]
     var lengthInMinutes : Int
     var theme : Theme
     
@@ -24,11 +24,18 @@ struct DailyScrum: Identifiable {
     ) {
         self.id = id
         self.title = title
-        self.attendees = attendees
+        self.attendees = attendees.map{ Attendee(name: $0)}
         self.lengthInMinutes = lengthInMinutes
         self.theme = theme
     }
+    
 }
+
+struct Attendee: Identifiable {
+    var id: UUID = UUID()
+    var name: String
+}
+
 
 
 #if DEBUG
