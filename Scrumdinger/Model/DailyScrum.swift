@@ -5,13 +5,29 @@
 //  Created by Abdul Wahab Khan on 28/02/2025.
 //
 
- struct DailyScrum {
+import Foundation
+
+struct DailyScrum: Identifiable {
     
-     var title : String
-     var attendees : [String]
-     var lengthInMinutes : Int
-     var theme : Theme
-     
+    var id : UUID
+    var title : String
+    var attendees : [String]
+    var lengthInMinutes : Int
+    var theme : Theme
+    
+    init(
+        id: ID = UUID(),
+        title: String,
+        attendees: [String],
+        lengthInMinutes: Int,
+        theme: Theme
+    ) {
+        self.id = id
+        self.title = title
+        self.attendees = attendees
+        self.lengthInMinutes = lengthInMinutes
+        self.theme = theme
+    }
 }
 
 
