@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7393B4A92D71C8B50067E656 /* Scrumdinger */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Scrumdinger;
-			sourceTree = "<group>";
-		};
 		7393B4BB2D71C8B70067E656 /* ScrumdingerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ScrumdingerTests;
@@ -43,6 +38,11 @@
 		7393B4C52D71C8B70067E656 /* ScrumdingerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ScrumdingerUITests;
+			sourceTree = "<group>";
+		};
+		7393B53C2D7313740067E656 /* Scrumdinger */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Scrumdinger;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		7393B49E2D71C8B50067E656 = {
 			isa = PBXGroup;
 			children = (
-				7393B4A92D71C8B50067E656 /* Scrumdinger */,
+				7393B53C2D7313740067E656 /* Scrumdinger */,
 				7393B4BB2D71C8B70067E656 /* ScrumdingerTests */,
 				7393B4C52D71C8B70067E656 /* ScrumdingerUITests */,
 				7393B4A82D71C8B50067E656 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7393B4A92D71C8B50067E656 /* Scrumdinger */,
+				7393B53C2D7313740067E656 /* Scrumdinger */,
 			);
 			name = Scrumdinger;
 			packageProductDependencies = (
